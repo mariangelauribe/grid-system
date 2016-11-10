@@ -1,0 +1,109 @@
+
+
+body{
+	font-family: sans-serif;
+}
+
+header{
+	background: black;
+ 	padding: 15px 0;
+    color: white;
+ }
+
+ nav ul{
+ 	list-style-type: none;
+	float: right;
+	font-size: 12px;
+	line-height: 14px;
+ }
+
+ nav li{
+	position: relative;
+	float: left;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: white;
+}
+
+.logo{
+	width: 80px;
+}
+
+.episodes{
+	background: #EFEFEF;
+}
+.episodes .lista-episodes img{
+	width: 100%;
+}	
+
+.episodes .lista-episodes p{
+	text-align: center;
+}
+
+.lista-contenido{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.lista-contenido li{
+	display: inline-block;
+	width: 107px;
+	margin: 0 10px 10px 0;
+	vertical-align: top;
+}
+
+.lista-contenido img{
+	width: 100%;
+}
+
+.lista-contenido p{
+	text-align: center;
+}
+
+.navegation-links h3{
+	border-bottom: 1px solid;
+	margin: 10px 0;
+	color: black;
+}
+
+.navegation-links ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navegation-limks ul img{
+	margin-right: 10px;
+}
+
+.navegation-links ul a{
+	text-decoration: none;
+	color: #0431B4;
+}
+
+.ultimo{
+	background: #6E6E6E;
+}
+
+.ultimo p{
+	font-size: 15px;
+	color:white;
+}
+
+.ultimo .listafooter li{
+	display: inline-block;
+	list-style: none;
+	margin:8px;
+	text-align: center;
+}
+
+#copyright {
+	font-size:0.7em; 
+	text-align:center; 
+	color:white;
+	margin: 10px;
+}
