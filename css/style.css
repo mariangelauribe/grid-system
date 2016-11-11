@@ -12,20 +12,21 @@ header{
 
  nav ul{
  	list-style-type: none;
-	float: right;
-	font-size: 12px;
-	line-height: 14px;
+	text-align: right;
+	font-size: 15px;
+	margin: 0;
+	padding: 30px 0 0 0;
  }
 
  nav li{
-	position: relative;
-	float: left;
+	display: inline-block;
 }
 
 nav a{
 	text-decoration: none;
-	padding: 10px 15px;
+	padding: 5px 10px;
 	color: white;
+	display: block;
 }
 
 .logo{
@@ -34,19 +35,25 @@ nav a{
 
 .episodes{
 	background: #EFEFEF;
+	border-bottom: 1px solid #BDBDBD;
 }
+
+.episodes h1{
+	padding: 15px 0;
+}
+
 .episodes .lista-episodes img{
 	width: 100%;
 }	
 
 .episodes .lista-episodes p{
 	text-align: center;
+	color: #0174DF;
 }
 
 .lista-contenido{
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	margin: 30px 0 15px 0;
 }
 
 .lista-contenido li{
@@ -61,44 +68,60 @@ nav a{
 }
 
 .lista-contenido p{
-	text-align: center;
+	text-align: center;;
+	color: #0174DF
 }
 
 .navegation-links h3{
 	border-bottom: 1px solid;
 	margin: 10px 0;
-	color: black;
 }
 
 .navegation-links ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	font-size: 15px;
 }
 
-.navegation-limks ul img{
+.navegation-links p{
+	border-top: 1px solid; 
+	margin: 10px 0;
+	padding: 10px;
+}
+
+img{
 	margin-right: 10px;
+	width: 5%;
+}
+
+.navegation-links{
+	padding: 30px 30px;
 }
 
 .navegation-links ul a{
 	text-decoration: none;
-	color: #0431B4;
+	color: #0174DF;
 }
 
 .ultimo{
 	background: #6E6E6E;
+	padding: 30px 0;
 }
 
 .ultimo p{
 	font-size: 15px;
 	color:white;
+	margin: 0;
 }
 
 .ultimo .listafooter li{
 	display: inline-block;
 	list-style: none;
-	margin:8px;
+	margin:15px 15px 15px 37px;
 	text-align: center;
+	font-size: 0.7em;
+	color: #D8D8D8;
 }
 
 #copyright {
@@ -106,4 +129,5 @@ nav a{
 	text-align:center; 
 	color:white;
 	margin: 10px;
+	color: #BDBDBD;
 }
